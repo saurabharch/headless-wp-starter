@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "next build",
-    "start": "CHOKIDAR_USEPOLLING=true node server.js"
+    "start": "CHOKIDAR_USEPOLLING=true node server.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "keywords": [],
   "author": "",
@@ -19,7 +21,8 @@
     "next": "9.0.5",
     "postcss-easy-import": "^3.0.0",
     "react": "^16.7.0",
-    "wpapi": "^1.2.1"
+    "wpapi": "^1.2.1",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "babel": "^6.23.0",
@@ -44,5 +47,6 @@
     "react-dom": "^16.7.0",
     "sass-loader": "^7.1.0",
     "webpack": "^4.29.0"
-  }
+  },
+  "snyk": true
 }
