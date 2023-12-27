@@ -12,7 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "autoprefixer": "9.6.1",
-    "axios": "^0.24.0",
+    "axios": "^1.6.3",
     "emit-file-loader": "^0.0.2",
     "express": "^4.16.4",
     "glob": "^7.1.3",
